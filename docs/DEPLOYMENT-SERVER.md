@@ -158,7 +158,7 @@ nano .env.local
 NEXT_PUBLIC_ENV_MODE=production
 NEXT_PUBLIC_SUPABASE_URL=https://your-project.supabase.co
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
-NEXT_PUBLIC_BACKEND_URL=https://api.your-domain.com
+NEXT_PUBLIC_BACKEND_URL=https://api.your-domain.com/api
 NEXT_PUBLIC_URL=https://your-domain.com
 ```
 
