@@ -180,6 +180,21 @@ Kortix can be self-hosted on your own infrastructure using our comprehensive set
 - **🔗 Automation**: Webhook handling for automated tasks
 - **📊 Data Sources**: Optional RapidAPI integrations
 
+### 🚀 Production Server Deployment
+
+For deploying Kortix to a production server, we provide comprehensive deployment guides:
+- **[Server Deployment Guide (English)](./docs/DEPLOYMENT-SERVER.md)** - Complete production deployment instructions
+- **[دليل النشر على السيرفر (Arabic)](./docs/DEPLOYMENT-SERVER-AR.md)** - دليل شامل لنشر المنصة على سيرفر الإنتاج
+
+These guides cover:
+- Production environment configuration
+- Docker deployment with reverse proxy (Nginx/Caddy)
+- SSL/HTTPS setup
+- Security hardening
+- Monitoring and logging
+- Backup and maintenance
+- Cloud provider deployment (AWS, GCP, DigitalOcean)
+
 ### 📚 Manual Setup
 
 For advanced users who prefer manual configuration, see the [Self-Hosting Guide](./docs/SELF-HOSTING.md) for detailed manual setup instructions.
