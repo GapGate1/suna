@@ -247,6 +247,11 @@ volumes:
   redis_data:
 ```
 
+**Note on Docker Image Versions:**
+This configuration uses `latest` tags to stay consistent with the project's default setup. For production environments, consider pinning to specific version tags (e.g., `v1.2.3`) when they become available to prevent unexpected updates. You can check available versions at:
+- Backend: https://github.com/kortix-ai/suna/pkgs/container/suna-backend
+- Frontend: https://github.com/kortix-ai/suna/pkgs/container/suna-frontend
+
 #### 2. Create Environment File for Docker Compose
 
 ```bash

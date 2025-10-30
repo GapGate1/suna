@@ -247,6 +247,11 @@ volumes:
   redis_data:
 ```
 
+**ملاحظة حول إصدارات صور Docker:**
+هذا الإعداد يستخدم وسم `latest` للبقاء متسقاً مع الإعداد الافتراضي للمشروع. في بيئات الإنتاج، يُنصح بتثبيت إصدارات محددة (مثل `v1.2.3`) عندما تصبح متاحة لتجنب التحديثات غير المتوقعة. يمكنك التحقق من الإصدارات المتاحة على:
+- Backend: https://github.com/kortix-ai/suna/pkgs/container/suna-backend
+- Frontend: https://github.com/kortix-ai/suna/pkgs/container/suna-frontend
+
 #### 2. إنشاء ملف بيئة للـ Docker Compose
 
 ```bash
